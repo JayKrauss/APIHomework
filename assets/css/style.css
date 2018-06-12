@@ -1,0 +1,28 @@
+.banner {
+    background-color: lightgray;
+    height: 15%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    background-color: blue;
+    height: 20%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display {
+    background-color: lightblue;
+    height: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}

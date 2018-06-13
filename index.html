@@ -1,36 +1,51 @@
 <!doctype <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GIFSPLOSION</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="assets/javascript/logic.js"></script>
+
 </head>
-<body>
+<body onload='renderButtons();'>
     <div class='container'>
         <div class='row banner'>
             <div class='jumbotron centered'>
                 <center>
-                    <h3>Welcome to GIFSPLOSION!</h3>
+                    <h3>Welcome to CARTOON GIFSPLOSION!</h3>
                 </center>
             </div>
         </div>
-
+<br>
         <div class='row'>
             
-                <div class='col-md-12'>
-                    <div class='row buttons' id='buttons'> 
+                    <div class='col-md-12 buttons' id='buttons'> 
 
                     </div>
-                    <div class='row display' id='display'>
-
-                    </div>
+                <div class='col-md-12 centered'>
+                    <center>
+                    <form id="term-form">
+                        <label for="term-input">Add a Show!</label>
+                        <input type="text" id="show-input">
+                        <br>
+                        <input id="add-show" type="submit" value="Add a Show!">
+                      </form>
+                    </center>
                 </div>
+                    <div class='col-md-12 display' id='display'>
 
+                    </div>
         </div>
+
 
     </div>
 </body>
